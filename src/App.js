@@ -8,10 +8,11 @@ import './App.styles.scss';
 function App() {
   return (
     <div className='App'>
+      {/* data for demo posts as props */}
       <UserList dataSource='https://jsonplaceholder.typicode.com/users' />
       <UserProfile
-        name='jes'
-        email='jes@gmail.com'
+        name='jesteena'
+        email='jesteena@gmail.com'
         dataSource='https://jsonplaceholder.typicode.com/posts'
       />
     </div>
